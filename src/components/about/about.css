@@ -117,15 +117,17 @@ section >h2{
 .container1{
     width:var(--container-width-lg);
     margin:120rem auto;
+   
 }
 .certificate-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
     background-color: var(--color-primary);
-    margin-top: 10rem;
+    margin-top: 0.2rem;
     position:relative;
     border-radius: 2rem;
+    /* height: 100vh; */
 }
 .course{
     background: var(--color-bg-variant);
@@ -169,4 +171,14 @@ section >h2{
     .certificate-container{
         display:grid;
         grid-template-columns: 1fr;}
+        .animation{
+            height: 100vh;
+        }
+        .course{
+            margin:0.5rem;
+            padding: 0.2rem;
+        }
+}
+.animation{
+    height: 40vh;
 }
