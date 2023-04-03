@@ -1,7 +1,7 @@
 import './header.css'
 
 import React from 'react'
-import cv from '../../assets/buviCV.pdf'
+import cv from '../../assets/BUVANESHWARI .pdf'
 import image from '../../assets/me1.png'
 import SocialMedia from './SocialMedia'
 
