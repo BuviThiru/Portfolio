@@ -2,7 +2,7 @@ import './contacts.css'
 import React,{useRef} from 'react'
 import {AiOutlineMail} from 'react-icons/ai'
 import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
+import {BsWhatsapp,BsTelephoneFill} from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 
 function Contacts() {
@@ -12,6 +12,9 @@ function Contacts() {
     emailjs.sendForm('service_1sfivlv','template_tsjg49h',form.current,'ZEAxYiw_dfrhqw321')
     e.target.reset()
     alert("Message sent Sucessfully!! Thank you ")
+  }
+  const handleClick = () => {
+    window.open("https://wa.me/919524775556?text=Hello%2C%20I%20am%20interested%20in%20your%20product.");
   }
 
 
@@ -32,15 +35,18 @@ function Contacts() {
           </article>
           <article className='contact-option'>
             <RiMessengerLine className='contact-icon'/>
-            <h4>Messenger</h4>
-            {/* <h5>thirubuvana@gmail.com</h5> */}
+            <h4>Messenger</h4>           
             <a href="http://m.me/buvaneshwari.thirumalaisamy" rel="noreferrer" target="_blank">Send a message</a>
           </article>
-          <article className='contact-option'>
+          <article className='contact-option' onClick={handleClick}>
             <BsWhatsapp className='contact-icon'/>
             <h4>WhatsApp</h4>
-            {/* <h5>thirubuvana@gmail.com</h5> */}
-            <a href="hhtp://api.whatsapp.com/send?phone= +919524775556" rel="noreferrer" target="_blank">Drop a message</a>
+            <div>Drop a message</div>
+          </article>
+          <article className='contact-option'>
+            <BsTelephoneFill className='contact-icon'/>
+            <h4>Call</h4>
+            <div>9524775556</div>
           </article>
         </div>
 

@@ -27,12 +27,12 @@
 }
 .contact-option .contact-icon{
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
     overflow-wrap:normal;
 }
 
 .contact-option a{
-    margin-top: 0.7rem;
+    margin-top: 0.1rem;
     display: inline-block;
     font-size: 0.8rem;
 }

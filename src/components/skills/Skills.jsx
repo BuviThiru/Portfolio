@@ -7,6 +7,7 @@ import { BsFillBootstrapFill } from "react-icons/bs";
  import {FaNodeJs,FaReact} from 'react-icons/fa'
  import {TbBrandJavascript} from 'react-icons/tb'
  import {GrMysql} from 'react-icons/gr'
+ import {SiTailwindcss} from 'react-icons/si'
 
 function Skills() {
   return (
@@ -30,13 +31,18 @@ function Skills() {
               <h3>JavaScript</h3>
             </article>
             <article className="skill-details">
+              <FaReact className="skill-icons"/>
+              <h3>React JS</h3>
+            </article>
+            <article className="skill-details">
               <BsFillBootstrapFill className="skill-icons"/>
               <h3>Bootstrap</h3>
             </article>
             <article className="skill-details">
-              <FaReact className="skill-icons"/>
-              <h3>React</h3>
+              <SiTailwindcss className="skill-icons"/>
+              <h3>Tailwind</h3>
             </article>
+            
           </div>
         </div>
         
