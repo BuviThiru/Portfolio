@@ -20,6 +20,11 @@
     border-radius: 1.5rem;
     overflow:hidden;
     margin-bottom: 0.5rem;
+  
+}
+.portfolio-item-image img{
+    min-height: 13rem;
+    max-height: 13rem;
 }
 
 .portfolio-item p{
