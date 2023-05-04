@@ -5,6 +5,7 @@ import youTube from '../assets/youTubeStatic.png'
 import portFolio from '../assets/portfolio.png'
 import ticTacToe from '../assets/ticTacToe.png'
 import weatherApp from '../assets/weather.png'
+import crmApp from '../assets/crmApp.webp'
 
 export const data=[{
     id:1,
@@ -54,4 +55,13 @@ export const data=[{
     desc:"Find the weather in your city",
     github:'https://github.com/BuviThiru/weather-app',
     demo:"https://buvi-weatherapp.netlify.app/",
+},
+{
+    id:7,
+    image:crmApp,
+    title:"CRM-Notification (Backend)",
+    type:"Backend",
+    desc:"API for CRM app connected to its notification service",
+    github:'https://github.com/BuviThiru/CRM-Application-BackEnd-',
+    demo:"https://crm-backend-fpru.onrender.com",
 }]
