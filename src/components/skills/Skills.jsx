@@ -4,10 +4,12 @@ import { BsFillBootstrapFill } from "react-icons/bs";
  import {MdSchema} from 'react-icons/md'
  import {SiSequelize,SiCss3} from 'react-icons/si'
  import {AiFillHtml5} from 'react-icons/ai'
- import {FaNodeJs,FaReact} from 'react-icons/fa'
- import {TbBrandJavascript} from 'react-icons/tb'
+ import {FaNodeJs} from 'react-icons/fa'
+ import {TbBrandJavascript,TbBrandReactNative} from 'react-icons/tb'
  import {GrMysql} from 'react-icons/gr'
  import {SiTailwindcss} from 'react-icons/si'
+ import {DiMongodb} from 'react-icons/di'
+
 
 function Skills() {
   return (
@@ -31,7 +33,7 @@ function Skills() {
               <h3>JavaScript</h3>
             </article>
             <article className="skill-details">
-              <FaReact className="skill-icons"/>
+              <TbBrandReactNative className="skill-icons"/>
               <h3>React JS</h3>
             </article>
             <article className="skill-details">
@@ -66,10 +68,10 @@ function Skills() {
               <MdSchema className="skill-icons"/>
               <h3>Sanity</h3>
             </article>
-            {/* <article className="skill-details">
-              <BsFillPatchCheckFill />
-              <h3>React</h3>
-            </article> */}
+            <article className="skill-details">
+              <DiMongodb className="skill-icons"/>
+              <h3>MongoDB</h3>
+            </article>
           </div>
         </div>
       </div>
