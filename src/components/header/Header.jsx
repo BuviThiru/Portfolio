@@ -1,7 +1,7 @@
 import './header.css'
 
 import React from 'react'
-import cv from '../../assets/BUVANESHWARI .pdf'
+import cv from '../../assets/BUVANESHWARI.pdf'
 import image from '../../assets/me1.png'
 import SocialMedia from './SocialMedia'
 
@@ -13,7 +13,7 @@ function Header() {
         <h1>Buvaneshwari T</h1>
         <h5 className='text-light'>Fullstack Developer</h5>
         <div className='cta'>
-          <a href={cv} download className='btn'>Download CV</a>
+          <a href={cv} download className='btn'>Download Resume</a>
           <a href="#contacts" className='btn btn-primary'>Let's Talk</a>
         </div>
         <SocialMedia />

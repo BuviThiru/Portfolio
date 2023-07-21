@@ -2,16 +2,25 @@
 import mealDash from '../assets/mealDash.png'
 import spiceMart from '../assets/spiceMart.png'
 import youTube from '../assets/youTubeStatic.png'
-import portFolio from '../assets/portfolio.png'
+// import portFolio from '../assets/portfolio.png'
 import ticTacToe from '../assets/ticTacToe.png'
 import weatherApp from '../assets/weather.png'
-import crmApp from '../assets/crmApp.webp'
+import crmApp from '../assets/CRM-app.png'
 
-export const data=[{
+export const data=[
+    {
+        id:7,
+        image:crmApp,
+        title:"CRM-Notification (MERN STACK)",
+        type:"MERN STACK",
+        desc:"Backend includes CRM API connected with notification service. Front-end with different UI for admin, engineer and customer",
+        github:'https://github.com/BuviThiru/CRM-Application-BackEnd-',
+        demo:"https://crm-backend-fpru.onrender.com",
+    },{
     id:1,
     image:mealDash,
-    title:"MealDash-Order your meal",
-    desc:"App build by fetching data of zomato API - React JS",
+    title:"MealDash-Order your meal [Note: Enable CORS extension to view]",
+    desc:"App build by fetching data of zomato API - React JS. [Note: Enable CORS extension to view]",
     type:"frontend",
     github:'https://github.com/BuviThiru/MealDash',
     demo:"https://buvi-meal-dash.netlify.app/",
@@ -31,15 +40,17 @@ export const data=[{
     desc: "YouTube Clone - with HTML,CSS and Javascript",
     github:'https://github.com/BuviThiru/YouTube-Clone-Front-End-',
     demo:"https://youtube-static-buvi.netlify.app/",
-},{
-    id:4,
-    image:portFolio,
-    title:"This my portfolio",
-    type:"frontend",
-    desc:"This is my portfolio build using React JS",
-    github:'https://github.com/BuviThiru/Portfolio',
-    demo:"https://buvaneshwari-portfolio-resume.netlify.app/#header",
-},{
+},
+// {
+//     id:4,
+//     image:portFolio,
+//     title:"This my portfolio",
+//     type:"frontend",
+//     desc:"This is my portfolio build using React JS",
+//     github:'https://github.com/BuviThiru/Portfolio',
+//     demo:"https://buvaneshwari-portfolio-resume.netlify.app/#header",
+// },
+{
     id:5,
     image:ticTacToe,
     title:"Tic-Tac-Toe",
@@ -56,12 +67,4 @@ export const data=[{
     github:'https://github.com/BuviThiru/weather-app',
     demo:"https://buvi-weatherapp.netlify.app/",
 },
-{
-    id:7,
-    image:crmApp,
-    title:"CRM-Notification (Backend)",
-    type:"Backend",
-    desc:"API for CRM app connected to its notification service",
-    github:'https://github.com/BuviThiru/CRM-Application-BackEnd-',
-    demo:"https://crm-backend-fpru.onrender.com",
-}]
+]
