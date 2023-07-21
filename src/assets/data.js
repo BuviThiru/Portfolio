@@ -15,7 +15,7 @@ export const data=[
         type:"MERN STACK",
         desc:"Backend includes CRM API connected with notification service. Front-end with different UI for admin, engineer and customer",
         github:'https://github.com/BuviThiru/CRM-Application-BackEnd-',
-        demo:"https://buvi-crm.netlify.app",
+        demo:"https://crm-backend-fpru.onrender.com",
     },{
     id:1,
     image:mealDash,
